@@ -1,5 +1,6 @@
 import Notification from "./components/Notification";
 import Profile from "./components/Profile";
+import Nav from "./components/Nav";
 import UseCallback from "./components/Hooks/UseCallback";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Notification />
       <UseCallback />
       <Profile />
+      <Nav />
     </div>
   );
 }
