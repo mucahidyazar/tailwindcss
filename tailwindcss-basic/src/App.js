@@ -1,3 +1,4 @@
+import Card from "./components/Card";
 import Notification from "./components/Notification";
 import Profile from "./components/Profile";
 import Nav from "./components/Nav";
@@ -10,6 +11,7 @@ function App() {
       <UseCallback />
       <Profile />
       <Nav />
+      <Card />
     </div>
   );
 }
