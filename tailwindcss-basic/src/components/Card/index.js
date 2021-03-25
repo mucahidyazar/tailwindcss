@@ -26,6 +26,7 @@ export default function Card() {
               aliquam impedit, molestiae similique quos architecto consectetur,
               rerum illo.
             </p>
+
             <div className="mt-4 sm:mt-6">
               <a
                 href="#"
