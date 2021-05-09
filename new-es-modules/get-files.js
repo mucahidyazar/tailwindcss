@@ -1,6 +1,7 @@
 // get-files.js
 import path from "path";
 import fs from "fs/promises";
+
 const isDir = async (d) => (await fs.lstat(d)).isDirectory();
 async function getFiles(dir) {
   const list = await fs.readdir(dir);
@@ -15,4 +16,5 @@ async function getFiles(dir) {
   });
   return Promise.all(filePromises);
 }
+
 export { getFiles };
