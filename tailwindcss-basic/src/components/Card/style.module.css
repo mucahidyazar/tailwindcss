@@ -1,0 +1,38 @@
+@layer components {
+  .btn {
+    @apply inline-block
+    px-5 
+    py-3
+    transform 
+    transition 
+    shadow-lg 
+    rounded-lg 
+    uppercase 
+    font-semibold 
+    text-sm 
+    tracking-wider 
+    outline-none 
+    sm:text-base
+    focus:ring 
+    focus:ring-offset-2 
+    focus:ring-indigo-500 
+    focus:ring-opacity-50;
+  }
+
+  .btnPrimary {
+    @apply bg-indigo-500 
+    text-white 
+    hover:bg-indigo-400 
+    hover:-translate-y-0.5 
+    sm:hover:bg-gray-500 
+    active:bg-indigo-600;
+  }
+  .btnSecondary {
+    @apply bg-gray-300 
+    text-gray-800 
+    hover:bg-gray-400 
+    hover:-translate-y-0.5 
+    sm:hover:bg-gray-500 
+    active:bg-gray-600;
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./style.module.css";
 
 export default function Card() {
   return (
@@ -28,16 +29,16 @@ export default function Card() {
             </p>
 
             <div className="mt-4 sm:mt-6">
-              <a
-                href="#"
-                className="inline-block bg-indigo-500 text-white px-5 py-3 shadow-lg rounded-lg uppercase font-semibold text-sm tracking-wider sm:text-base"
-              >
+              <a href="#" className={styles.btn + " " + styles.btnPrimary}>
                 Book Yoor Escape
+              </a>
+              <a href="#" className={styles.btn + " " + styles.btnSecondary}>
+                Learn more
               </a>
             </div>
           </div>
         </div>
-        <div className="hidden relative lg:block 2xl:col-span-3">
+        <div className="hidden relative lg:block 2xl:col-span-3 space-x-1">
           <img
             className="absolute inset-0 w-full h-full object-cover object-center"
             src="/img/beach-work.jpg"
